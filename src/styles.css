@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+li{
+    cursor: pointer;
+    padding: 5%;
+    transition: .2s;
+    border: 1px solid grey;
+}
+
+li:hover{
+    transform: scale(1.0);
+    background-color: grey;
+}
